@@ -33,7 +33,7 @@ public class Frames_Example {
 	}
 
 	@Test(description =  " this is strory no 1 and stroy point 2")
-	public void frameTesting_fail_Strty123() {
+	public void frameTesting_fail_Story123_2() {
 		String expectedResult = "This is a Heading-2";
 
 		driver.switchTo().frame(driver.findElement(By.name("iframeResult")));
