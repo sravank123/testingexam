@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="150.191916">
+<testcase classname="Mycart" name="sgin-in" time="150.191916">
+<system-out><![CDATA[When sign_in button.........................................................passed
+And user should enter userID................................................passed
+And user should enter password..............................................passed
+And user should click the remember me check box.............................passed
+And click recaptcha_sign_in.................................................passed
+Given user should click mycart from navigation bar..........................passed
+When user should click the search icon of the partner.......................passed
+When user shloud enter buyer details........................................passed
+And user should enter product details.......................................passed
+And user sholud click update................................................passed
+And user should click convert to project....................................passed
+Then user Should verify Create Project successful...........................passed
+And refresh the page........................................................passed
+And user sholud click recent projects.......................................passed
+Given user should clcik new project From recent projects....................passed
+When user should enter name.................................................passed
+And user should click item nad summary......................................passed
+And user should click update buttion........................................passed
+And user should click convert project to quote..............................passed
+And refresh the page........................................................passed
+And user should click recent quotes.........................................passed
+And user should click on created quote......................................passed
+And user should click on quote summary......................................passed
+And user should convert quote to order......................................passed
+Then verify quote is converted into order...................................passed
+And refresh the page........................................................passed
+And user should click on resent orders......................................passed
+And user should click on created order......................................passed
+And user should click on submit.............................................passed
+Then user should verify sumition approved...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
